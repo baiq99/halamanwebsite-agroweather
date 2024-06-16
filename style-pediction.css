@@ -1,0 +1,93 @@
+body {
+    background-image: url('img/bg5.png'); /* Menambahkan prefiks img/ ke gambar latar belakang */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+    .login-form {
+    flex: 1;
+    padding: 50px;
+    background-color: rgba(200, 200, 200, 0.5);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+
+    width: 100%; 
+    max-width: 600px; 
+    margin-left: 0; 
+    margin-right: auto; 
+}
+
+@media (min-width: 768px) {
+.login-form {
+    width: 60%;
+}
+}
+
+/* Untuk layar dengan lebar minimal 992px (desktop) */
+@media (min-width: 992px) {
+    .login-form {
+        width: 40%;
+    }
+}
+
+.login-form:hover {
+  animation: animate__animated animate__pulse;
+}
+.login-image {
+  flex: 1;
+  padding-top: 20px;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  color: white;
+}
+.btn-prediksi {
+margin-top: 15px;  
+margin-left: 10px; 
+}
+
+.btn-login {
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+}
+.form-control {
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+.form-group-left, .form-group-right {
+    display: inline-block; 
+    vertical-align: top; 
+    width: 49%; 
+}
+
+.form-group-right {
+    border-left: 1px solid #3498db; 
+    padding-left: 10px; 
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgba(200, 200, 200, 0.5); 
+}
+
+.card:hover {
+  animation: animate__animated animate__pulse;
+}
+
+.bg-color-1 {
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+}

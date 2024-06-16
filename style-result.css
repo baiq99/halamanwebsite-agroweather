@@ -1,0 +1,77 @@
+    body {
+    background-image: url('img/bg5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    }
+
+    .card {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .card:hover {
+      animation: animate__animated animate__pulse;
+    }
+
+    .bg-color-1 {
+      background-image: url('img/bg2.png');
+      background-size: cover;
+      height: 200px; 
+    }
+
+    .bg-color-2 {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      background-color: rgba(200, 200, 200, 0.5); 
+    }
+    
+    .bg-color-2:hover {
+      animation: animate__animated animate__pulse;
+    }
+
+    .bg-color-2 {
+      background-image: none;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .carousel-inner{
+  		width:100%;
+  		max-height: 400px !important;
+  	}
+
+  	.form-control {
+      	border-radius: 5px;
+   		width: 200px;
+       	height: 35px;
+ 		padding: 10px;
+    }
+
+    .btn-login {
+            border-radius: 20px;
+            width: 200px;
+            height: 40px;
+    }
+
+    .custom-image {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .keterangan-text {
+        font-family: verdana;
+        font-size: 14px; /* Ubah sesuai kebutuhan */
+        color: white;
+        text-align: justify;
+        
+        border: 2px solid white; /* Menambahkan border dengan ketebalan 2px dan warna putih */
+        padding: 5px; /* Menambahkan padding agar teks tidak terlalu menempel pada border */
+
+        width: 900px;  /* Mengatur lebar elemen */
+        height: 150px;  /* Mengatur tinggi elemen */
+        display: block;
+        
+        /* Mengatur jarak antar baris */
+        line-height: 2;  /* Anda bisa menyesuaikannya sesuai kebutuhan */
+    }
